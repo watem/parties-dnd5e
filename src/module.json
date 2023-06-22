@@ -1,0 +1,30 @@
+{
+  "id": "parties-dnd5e",
+  "title": "Parties DnD 5e",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "description": "Adds adventuring party automation for dnd 5e.",
+  "esmodules": [
+    "index.js"
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "foundryvtt-simple-calendar",
+        "type": "module"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Watem",
+      "discord": "watem",
+      "email": "watem.main@gmail.com"
+    }
+  ],
+  "url": "https://github.com/watem/parties-dnd5e"
+}
